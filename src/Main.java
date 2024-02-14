@@ -16,7 +16,7 @@ public class Main {
             System.out.println("throws Exception");
             throw new IllegalArgumentException("Только арабские числа ");
         }
-        if (a >= 11 || a <= 0||b > 11 || b <= 0) {
+        if (a >= 11 || a <= 0||b >= 11 || b <= 0) {
             System.out.println("throws Exception");
             throw new IllegalArgumentException(" Числа должны быть от 1 до 10");
         }
